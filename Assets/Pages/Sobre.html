@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+    <link rel="stylesheet" href="../CSS/Estilo1.css">
+</head>
+
+<body>
+    <div id="tudo">
+        <header class="fonte1">
+            <div class="esq-top">
+                <img src="../Images/logo_explora_mar_1.png" alt="logo-exploramar">
+            </div>
+            <div class="dir-top">
+                <label>
+                    <a href="../../Index.html">Principal</a>
+                </label>
+                <label>
+                    <a href="Grupo.html">Grupo</a>
+                </label>
+                <label>
+                    <a href="Enciclopedia.html">Enciclopedia</a>
+                </label>
+            </div>
+        </header>
+        <div id="conteudo">
+            <div class="conteudo1">
+                <h1 class="titulo">Promover o acesso a informações sobre os seres vivos marítimos e seus habitats
+                    naturais.</h1>
+                <p class="subtitulo">
+                    Nosso objetivo é contribuir para a redução da poluição marinha e a conservação dos ecossistemas
+                    marinhos e de suas espécies. No Projeto Explora Mar, acreditamos que a educação e a conscientização
+                    são fundamentais para a preservação do nosso ambiente marinho. Por isso, trabalhamos incansavelmente
+                    para reunir e disponibilizar dados precisos e atualizados sobre a biodiversidade marinha, as
+                    características dos habitats naturais e os desafios que esses ecossistemas enfrentam.
+                </p>
+            </div>
+            <img src="../Images/peixes.png" alt="imagem-peixes" class="peixes">
+            <div id="conteudo2">
+                <img src="../Images/tartaruga-sobre.png" alt="imagem-tartaruga" class="tartaruga">
+                <div class="conteudo2">
+                    <h1 class="titulo2"> Qualquer pessoa pode acessar informações detalhadas sobre diferentes espécies marinhas e seus ecossistemas. 
+                    </h1>
+                    <p class="subtitulo">
+                        Nosso projeto tem como missão fornecer informações acessíveis e compreensíveis sobre a vida
+                        marinha e seus habitats para estudantes, pesquisadores e o público em geral. Além disso,
+                        buscamos sensibilizar a sociedade sobre os impactos da poluição nos oceanos e promover práticas
+                        que ajudem a minimizar a poluição marítima. Ao mesmo tempo, apoiamos ações de conservação e
+                        proteção dos habitats naturais e das espécies marinhas ameaçadas, colaborando com comunidades
+                        locais, organizações ambientais e governamentais.
+                    </p>
+                </div>
+            </div>
+        </div>
+    <script>
+        window.watsonAssistantChatOptions = {
+            integrationID: "2da3d73d-02ec-45cf-8bc6-17ee2cca9739", // The ID of this integration.
+            region: "au-syd", // The region your integration is hosted in.
+            serviceInstanceID: "731511e1-5bfb-43e2-a8aa-b62c6199236d", // The ID of your service instance.
+            onLoad: async (instance) => { await instance.render(); }
+        };
+        setTimeout(function(){
+            const t=document.createElement('script');
+            t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+            document.head.appendChild(t);
+        });
+    </script>
+        <footer class="fonte1">
+            <div class="esq">
+                <img src="../Images/oceano_vivo_1.png" alt="logo-oceanovivo">
+            </div>
+            <div class="dir">
+                <a>2024 Explora Mar. All rights reserved</a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,291 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+}
+
+html, body {
+    height: 100%;
+}
+
+#tudo {
+    min-height: 100%;
+    background-image: url("../Images/Sobre.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+}
+
+header {
+    padding: 20px;
+}
+
+* html #tudo {
+    height: 100%;
+}
+
+#tudo {
+    position: relative;
+    width: 100%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #0085FF;
+    width: 100%;
+    text-align: center;
+}
+
+.titulo {
+    margin-right: 200px;
+}
+
+.titulo2 {
+    margin-right: 100px;
+}
+
+.subtitulo {
+    margin-top: 30px;
+    width: 550px;
+    float: left;
+}
+
+.texto {
+    color: white;
+    margin: auto;
+}
+
+#conteudo {
+    color: rgb(0, 0, 0);
+    display: flex;
+    float: left;
+    margin-top: 900px;
+    height: 600px;
+    margin-left: 150px;
+}
+
+#conteudo2 {
+    color: rgb(0, 0, 0);
+    display: flex;
+    margin-top: 700px;
+    height: 600px;
+    margin-left: -1300px;
+}
+
+.conteudo2 {
+    font-size: 30px;
+    width: 700px;
+    margin-left: 140px;
+    height: 800px;
+}
+
+.conteudo1 {
+    font-size: 30px;
+    width: 700px;
+    margin-right: 5px;
+}
+
+.peixes {
+    float: right;
+}
+
+.tartaruga {
+    float: left;
+}
+
+.dir-top {
+    float: right;
+    text-align: right;
+    margin: 15px 0px 0px 15px;
+    padding-top: 10px;
+}
+
+.dir-top label {
+    margin-right: -5px;
+    padding: -3px;
+}
+
+.esq-top {
+    float: left;
+    margin: 10px 0px 0px 10px;
+    width: 10%;
+}
+
+.esq {
+    float: left;
+    margin: 10px 0px 0px 10px;
+    width: 10%;
+}
+
+.dir {
+    float: right;
+    text-align: right;
+    margin: 15px 0px 0px 15px;
+    padding-top: 10px;
+    margin: 30px;
+    margin-right: 50px;
+}
+
+a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+a:hover {
+    color: #007BFF;
+}
+
+label {
+    margin: 20px 20px 20px 20px;
+    color: white;
+}
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url("../fonts/Archivo-VariableFont_wdth\,wght.ttf");
+}
+
+@font-face {
+    font-family: 'CustomFont2';
+    src: url("../fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+p {
+    font-family: 'CustomFont', sans-serif;
+}
+
+header, h1, footer {
+    font-family: 'CustomFont2', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 25px;
+}
+
+@media (max-width: 1400px){
+    .titulo {
+        margin-right: 600px;
+        font-size: 30px;
+        width: 400px;
+    }
+    
+    .titulo2 {
+        margin-right: 500px;
+        font-size: 30px;
+        width: 400px;
+    }
+    
+    .subtitulo {
+        margin-top: 30px;
+        width: 400px;
+        float: left;
+        font-size: 20px;
+    }
+    
+    .texto {
+        color: white;
+        margin: auto;
+    }
+    
+    #conteudo {
+        color: rgb(0, 0, 0);
+        display: flex;
+        float: left;
+        margin-top: 900px;
+        height: 600px;
+    }
+    
+    #conteudo2 {
+        color: rgb(0, 0, 0);
+        display: flex;
+        margin-top: 700px;
+        height: 600px;
+        margin-left: -1300px;
+    }
+    
+    .conteudo2 {
+        font-size: 30px;
+        width: 700px;
+        margin-left: 140px;
+        height: 800px;
+    }
+    
+    .conteudo1 {
+        font-size: 30px;
+        width: 700px;
+        margin-right: 5px;
+    }
+    
+    .peixes {
+        float: right;
+        width: 400px;
+        height: 400px;
+    }
+    
+    .tartaruga {
+        float: left;
+        width: 400px;
+        height: 400px;
+    }
+    
+}
+
+
+@media (max-width: 800px){
+
+    .titulo, .titulo2{
+        font-size: 20px;
+        width: 350px;
+    }
+
+    .subtitulo{
+        font-size: 15px;
+        width: 275px;
+    }
+
+    .titulo, .titulo2, .subtitulo{
+        margin-left: -80px;
+    }
+
+
+    #conteudo, #conteudo2 {
+        color: rgb(0, 0, 0);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 50px auto;
+        width: 80%;
+        max-width: 1200px;
+        margin-top: 300px;
+    }
+    
+    .conteudo1, .conteudo2 {
+        font-size: 30px;
+        width: 45%;
+        margin: 20px;
+    }
+    
+    .conteudo1 img, .conteudo2 img {
+        max-width: 100%;
+        width: 100px;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+
+    .tartaruga{
+        width: 400px;
+        height: 400px;
+    }
+
+    .peixes{
+        width: 400px;
+        height: 400px;
+    }
+}
