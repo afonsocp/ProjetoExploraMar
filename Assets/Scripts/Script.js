@@ -9,6 +9,7 @@ var proximo = document.getElementById("Proximo");
 var imagem = document.getElementById("Imagem");
 var controle = 1;
 setInterval(trocarInfo,1);
+
 function trocarInfo(){
     if (controle == 1){
         imagem.src = "../Images/tartaruga1.png";
